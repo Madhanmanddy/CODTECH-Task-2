@@ -12,7 +12,7 @@ public class Gradecalculator {
         int maxmarkperSubject = 100;
 
         for(int i=0; i<numsubjects; i++) {
-            System.out.println("Enter marks obtained in subject" + i + "(out of 100):");
+            System.out.println("Enter marks obtained in subject " + (i+1) + " (out of 100):");
             int marks = sc.nextInt();
 
             if(marks<0 || marks>maxmarkperSubject) {
